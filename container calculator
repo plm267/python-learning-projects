@@ -1,0 +1,7 @@
+
+print(containers_needed(11))
+
+
+def  containers_needed(num):
+    num = int(num / 10) + (num % 10 > 0)
+    return num  
