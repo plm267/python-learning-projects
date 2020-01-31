@@ -1,0 +1,9 @@
+print(seconds_between(5, 45, 7, 35))
+
+def seconds_between(minutes_A, seconds_A, minutes_B, seconds_B):
+    tsa= int(minutes_A) * 60 + int(seconds_A)
+    tsb = int(minutes_B) * 60 + int(seconds_B)
+    if tsa < tsb:
+        return tsb - tsa
+    else:
+        return tsa - tsb
