@@ -1,0 +1,7 @@
+def product_is_even(input1, input2):
+    product = int(input1) * int(input2)
+   
+    if product % 2 == 0:
+        return True
+    else:
+        return False
