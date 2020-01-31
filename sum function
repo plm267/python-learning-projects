@@ -1,0 +1,4 @@
+def sum_two(input1, input2):
+    sum_two = int(input1) + int(input2)
+    return sum_two
+print(sum_two(101,202))
